@@ -1,21 +1,84 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>Pharmaceutical Engineering</title>
-    <style>
-        .center {
-            text-align: center; /* 水平居中 */
-            margin: auto; /* 自动调整左右外边距为相等值，达到水平居中效果 */
-        }
-    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">
+<title>yanyang.com</title>
+   <link rel="stylesheet" href="style.css" >
 </head>
 <body>
-    <h1>
-    <div class="center">
-        If you want to contact me:
-        📧 danielsnewsletter@outlook.com
-    </div>
-    </h1>
+<div class="main">
+<div class="dm" ><h2 id="domain">Pharmaceutic.al</h2></div>
+<div class="bg"><div class="a"></div><div class="b"></div><div class="c"></div><div class="d"></div></div>
+<!--//co-->
+<div class="co">
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr><td align="left">Pharmaceutical Engineering</td><td align="right" rowspan="4"><div class="wechat">微信联系<em style="display: block;font-size: 10px;font-style: normal;">（请备注来源）</em><img class="wcode" width="60" height="60" src="wechat_qrcode.png" id="myImage" /></div></td></tr>
+<tr><td align="left"><div class="f14" style="position: relative;top: -5px;">Registrar Agent: <strong>Marksmile<sup>®</sup></strong></div></td></tr>
+<tr><td align="left"><div class="f14" style="margin-top: 5px;">Email / 邮箱：</div></td></tr>
+<tr><td align="left"><a href="mailto:danielsnewsletter@outlook.com"  class="email">danielsnewsletter@outlook.com</a ></td></tr>
+</table>
+</div>
+<!--//about pharmaceutic.al-->
+<div class="cpy">&copy; 2024 <a href="" target="_blank">pharmaceutic.al</a ></div>
+</div>
+<style>
+    #enlarged-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 设置背景透明度为0.5 */
+    display: flex;
+    z-index: 1;
+}
+ 
+#enlarged-image img {
+    display: block;
+    margin: auto;
+    max-width: none;
+    max-height: none;
+}
+@media only screen and (max-width: 600px) {
+    #enlarged-image img{
+        width: 300px;
+        height: 300px;
+    }
+}
+</style>
+<script>
+    var image = document.getElementById("myImage"); // 获取图
+ 
+ // 创建并显示放大后的图片容器
+ function createEnlargedContainer() {
+     var container = document.createElement('div');
+     container.id = "enlarged-image";
+     
+     var enlargedImg = document.createElement('img');
+     enlargedImg.src = image.getAttribute('src');
+     
+     container.appendChild(enlargedImg);
+     document.body.appendChild(container);
+     container.addEventListener("click",removeEnlargedContainer);
+ }
+  
+ // 移除放大后的图片容器
+ function removeEnlargedContainer() {
+     var container = document.getElementById("enlarged-image");
+     if (container) {
+         container.parentNode.removeChild(container);
+     }
+ }
+  
+ // 当图片被点击时调用该函数进行放大处理
+ function handleClick() {
+     createEnlargedContainer();
+ }
+  
+ // 将点击事件绑定到图片上
+ image.addEventListener('click', handleClick);
+</script>
 </body>
 </html>
