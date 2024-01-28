@@ -1,0 +1,34 @@
+body{background:#F7F7F7;text-align:center;padding:auto;margin:auto;}
+body,.main{font-size:14px;color:#333;}
+body,div,tr,td{font-family:PingFang SC,Microsoft YaHei,Verdana, Geneva, sans-serif;}
+.main{margin:20px auto auto auto;width:600px;background-color:#FFF;display: flex;flex-direction: column;position: relative;overflow: hidden;}
+.dm{margin:263px auto 291px auto;height: 45px;display: flex;align-items: center;z-index: 1;}
+.dm h2{font-size:32px;text-transform:uppercase;color:#fff;font-weight: 500;line-height: 45px;text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);}
+.bg{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+.bg .a{width: 585px;height: 300px;background: #b2ccff; border-radius: 5px;transform: rotate(15deg);right: 91px;top: 126px;position: absolute;}
+.bg .b{width: 585px;height: 300px;background: #6499ff; border-radius: 5px;transform: rotate(45deg);right: 160px;top: 74px;position: absolute;}
+.bg .c{width: 300px;height: 453px;background: #4988ff; border-radius: 5px;transform: rotate(75deg);left: 4px;top: 27px;position: absolute;}
+.bg .d{width: 188px;height: 550px;background: #286cef; border-radius: 5px;transform: rotate(90deg);left: 176px;top: -20px;position: absolute;}
+
+.co{margin-left:20px;margin-right:20px;font-size:14px;z-index: 1}
+.co table{height: 51px;margin-bottom: 30px;
+}
+.co td{font-size:14px; color:#353535;line-height: 20px;}.co td .f14{font-size:14px;line-height: 20px;}.co td strong{color:#2ca6d3;font-weight: 600;}.co td strong sup{font-size: 12px;}
+.email{color:#2ca6d3;font-size: 14px;line-height: 20px;height: 20px;text-decoration: none;display: block;}
+.wechat{font-size: 14px;color: #1a1a1a;line-height: 20px;margin-left: 16px;text-align: center;}
+.wechat img{margin-top: 3px;}
+.wcode{display:block;margin-top:10px;margin:auto;clear:both;}
+.ab-name{padding-left:20px;padding-right:20px;}
+.about{background:#f5f5f5; text-align:left; padding:20px 5px;}
+.cpy{display:block;text-align:center;padding:15px 0 25px 0;font-size: 14px;color:#353535;line-height:20px;box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.04);width: 100%;}
+.cpy a{color:#353535;text-decoration:none;}
+@media only screen and (max-width: 600px) {
+/* MOB CSS */
+body{background:#fff;margin:0;}
+.main{width:100%;margin: 0;}
+.dm{margin:282px auto 302px auto;}
+.bg .a{width: 345px;height: 345px;background: #b2ccff; border-radius: 5px;transform: rotate(22.5deg);right: 30px;top: 146px;position: absolute;}
+.bg .b{width: 283px;height: 283px;background: #6499ff; border-radius: 5px;transform: rotate(45deg);right: 93px;top: 180px;position: absolute;}
+.bg .c{width: 243px;height: 243px;background: #4988ff; border-radius: 5px;transform: rotate(75deg);left: 4px;top: 184px;position: absolute;}
+.bg .d{width: 177px;height: 355px;background: #286cef; border-radius: 5px 5px 0 0;transform: rotate(90deg);left: 89px;top: 87px;position: absolute;}
+}
