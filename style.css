@@ -5,10 +5,10 @@ body,div,tr,td{font-family:PingFang SC,Microsoft YaHei,Verdana, Geneva, sans-ser
 .dm{margin:263px auto 291px auto;height: 45px;display: flex;align-items: center;z-index: 1;}
 .dm h2{font-size:32px;text-transform:uppercase;color:#fff;font-weight: 500;line-height: 45px;text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);}
 .bg{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
-.bg .a{width: 585px;height: 300px;background: #b2ccff; border-radius: 5px;transform: rotate(15deg);right: 91px;top: 126px;position: absolute;}
-.bg .b{width: 585px;height: 300px;background: #6499ff; border-radius: 5px;transform: rotate(45deg);right: 160px;top: 74px;position: absolute;}
-.bg .c{width: 300px;height: 453px;background: #4988ff; border-radius: 5px;transform: rotate(75deg);left: 4px;top: 27px;position: absolute;}
-.bg .d{width: 188px;height: 550px;background: #286cef; border-radius: 5px;transform: rotate(90deg);left: 176px;top: -20px;position: absolute;}
+.bg .a{width: 585px;height: 300px;background: #ffccb2; border-radius: 5px;transform: rotate(15deg);right: 91px;top: 126px;position: absolute;}
+.bg .b{width: 585px;height: 300px;background: #ff9964; border-radius: 5px;transform: rotate(45deg);right: 160px;top: 74px;position: absolute;}
+.bg .c{width: 300px;height: 453px;background: #ff8849; border-radius: 5px;transform: rotate(75deg);left: 4px;top: 27px;position: absolute;}
+.bg .d{width: 188px;height: 550px;background: #ef6c28; border-radius: 5px;transform: rotate(90deg);left: 176px;top: -20px;position: absolute;}
 
 .co{margin-left:20px;margin-right:20px;font-size:14px;z-index: 1}
 .co table{height: 51px;margin-bottom: 30px;
